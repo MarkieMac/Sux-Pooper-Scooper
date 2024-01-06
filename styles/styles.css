@@ -1,0 +1,201 @@
+:root {
+    --heading-font-family: 'poppins', sans-serif;
+    --default-font-family: 'Playfair Display', Serif;
+    --default-color: #35F904;
+    --secondary-color: #FF52B4;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font-family);
+}
+
+h1,
+.description,
+.phone {
+    color: var(--default-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+    padding-top: 60px;
+}
+
+body {
+    font-family: var(--default-font-family);
+    background-color: #000000;
+}
+
+.personalstatement {
+    color: var(--default-color);
+    font-size: 20px;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.intro,
+.aboutme {
+    margin-top: 0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.btn {
+    background: var(--default-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 20px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    margin-top: 10px;
+    ;
+
+}
+
+.results {
+    color: var(--secondary-color);
+    padding: 35px;
+    font-size: 20px;
+}
+
+.icons {
+    color: var(--secondary-color);
+
+}
+
+i {
+    font-size: 50px;
+
+
+}
+
+.middle {
+    padding-bottom: 75px;
+}
+
+li {
+    color: #FF52B4;
+    font-size: 25px;
+
+
+}
+
+p {
+    color: var(--secondary-color);
+    font-size: 17px;
+}
+
+.description,
+.statement {
+    color: white;
+
+}
+
+.list-group-item {
+    background-color: var(--secondary-color);
+
+
+
+}
+
+.contact {
+    padding-top: 10px;
+}
+
+.logo {
+    max-height: 80px;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 85px;
+
+
+}
+
+nav a {
+    margin-left: 3px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: white;
+    transition: all 100ms ease-in-out;
+    font-size: 12px;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--default-color);
+}
+
+footer {
+    margin: 100px 0 0;
+}
+
+.email {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.email:hover {
+    color: var(--default-color);
+}
+
+.phone {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.phone:hover {
+    color: var(--default-color);
+}
+
+
+
+.social-links a {
+    margin: 0 10px;
+
+}
+
+
+.social-links i {
+
+    color: var(--secondary-color);
+    font-size: 30px;
+}
+
+.social-links i:hover {
+    color: var(--default-color);
+}
+
+.contact-message {
+    margin: 0;
+}
+
+h4 {
+    padding-top: 10px;
+    color: var(--default-color);
+}
+
+.ending {
+    font-size: 15px;
+    color: white;
+}
